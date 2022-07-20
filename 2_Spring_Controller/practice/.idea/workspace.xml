@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="email_validate_maven:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b8fcccd2-c8b0-42b7-a4af-78b81d110a88" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../1_SpringMVC_Overview/currency_transfer/currency_transfer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1_SpringMVC_Overview/dictionary/dictionary.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1_SpringMVC_Overview/greeing/greeting.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../currency_transfer/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../currency_transfer/.idea/artifacts/currency_transfer_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../currency_transfer/.idea/artifacts/currency_transfer_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../currency_transfer/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../currency_transfer/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../currency_transfer/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../currency_transfer/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../currency_transfer/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../currency_transfer/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../currency_transfer/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../currency_transfer/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../currency_transfer/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../currency_transfer/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../currency_transfer/.idea/libraries/Maven__org_springframework_spring_aop_5_3_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../currency_transfer/.idea/libraries/Maven__org_springframework_spring_beans_5_3_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../currency_transfer/.idea/libraries/Maven__org_springframework_spring_context_5_3_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../currency_transfer/.idea/libraries/Maven__org_springframework_spring_core_5_3_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../currency_transfer/.idea/libraries/Maven__org_springframework_spring_expression_5_3_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../currency_transfer/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../currency_transfer/.idea/libraries/Maven__org_springframework_spring_web_5_3_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../currency_transfer/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../currency_transfer/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../currency_transfer/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../currency_transfer/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../currency_transfer/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../currency_transfer/currency_transfer.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../currency_transfer/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../currency_transfer/src/main/java/com/codegym/controller/currency_transfer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../currency_transfer/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../currency_transfer/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../currency_transfer/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../currency_transfer/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../currency_transfer/target/classes/com/codegym/controller/currency_transfer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../currency_transfer/target/greeting-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../currency_transfer/target/greeting-1.0-SNAPSHOT/WEB-INF/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../currency_transfer/target/greeting-1.0-SNAPSHOT/WEB-INF/classes/com/codegym/controller/currency_transfer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../currency_transfer/target/greeting-1.0-SNAPSHOT/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../currency_transfer/target/greeting-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.3.21.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../currency_transfer/target/greeting-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-5.3.21.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../currency_transfer/target/greeting-1.0-SNAPSHOT/WEB-INF/lib/spring-context-5.3.21.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../currency_transfer/target/greeting-1.0-SNAPSHOT/WEB-INF/lib/spring-core-5.3.21.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../currency_transfer/target/greeting-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-5.3.21.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../currency_transfer/target/greeting-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-5.3.21.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../currency_transfer/target/greeting-1.0-SNAPSHOT/WEB-INF/lib/spring-web-5.3.21.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../currency_transfer/target/greeting-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.3.21.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../currency_transfer/target/greeting-1.0-SNAPSHOT/WEB-INF/views/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../currency_transfer/target/greeting-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../customer-management" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dictionary/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dictionary/.idea/artifacts/dictionary_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dictionary/.idea/artifacts/dictionary_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dictionary/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dictionary/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dictionary/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dictionary/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dictionary/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dictionary/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dictionary/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dictionary/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dictionary/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dictionary/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dictionary/.idea/libraries/Maven__org_springframework_spring_aop_5_3_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dictionary/.idea/libraries/Maven__org_springframework_spring_beans_5_3_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dictionary/.idea/libraries/Maven__org_springframework_spring_context_5_3_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dictionary/.idea/libraries/Maven__org_springframework_spring_core_5_3_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dictionary/.idea/libraries/Maven__org_springframework_spring_expression_5_3_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dictionary/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dictionary/.idea/libraries/Maven__org_springframework_spring_web_5_3_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dictionary/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dictionary/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dictionary/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dictionary/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dictionary/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dictionary/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dictionary/dictionary.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dictionary/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dictionary/src/main/java/com/codegym/controller/dictionary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dictionary/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dictionary/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dictionary/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dictionary/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dictionary/target/classes/com/codegym/controller/dictionary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dictionary/target/greeting-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dictionary/target/greeting-1.0-SNAPSHOT/WEB-INF/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dictionary/target/greeting-1.0-SNAPSHOT/WEB-INF/classes/com/codegym/controller/dictionary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dictionary/target/greeting-1.0-SNAPSHOT/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dictionary/target/greeting-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.3.21.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dictionary/target/greeting-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-5.3.21.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dictionary/target/greeting-1.0-SNAPSHOT/WEB-INF/lib/spring-context-5.3.21.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dictionary/target/greeting-1.0-SNAPSHOT/WEB-INF/lib/spring-core-5.3.21.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dictionary/target/greeting-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-5.3.21.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dictionary/target/greeting-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-5.3.21.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dictionary/target/greeting-1.0-SNAPSHOT/WEB-INF/lib/spring-web-5.3.21.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dictionary/target/greeting-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.3.21.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dictionary/target/greeting-1.0-SNAPSHOT/WEB-INF/views/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dictionary/target/greeting-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../greeing/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../greeing/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../greeing/.idea/artifacts/greeting_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../greeing/.idea/artifacts/greeting_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../greeing/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../greeing/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../greeing/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../greeing/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../greeing/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../greeing/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../greeing/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../greeing/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../greeing/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../greeing/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../greeing/.idea/libraries/Maven__org_springframework_spring_aop_5_3_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../greeing/.idea/libraries/Maven__org_springframework_spring_beans_5_3_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../greeing/.idea/libraries/Maven__org_springframework_spring_context_5_3_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../greeing/.idea/libraries/Maven__org_springframework_spring_core_5_3_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../greeing/.idea/libraries/Maven__org_springframework_spring_expression_5_3_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../greeing/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../greeing/.idea/libraries/Maven__org_springframework_spring_web_5_3_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../greeing/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../greeing/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../greeing/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../greeing/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../greeing/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../greeing/greeting.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../greeing/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../greeing/src/main/java/com/codegym/controller/GreetingController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../greeing/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../greeing/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../greeing/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../greeing/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../greeing/target/classes/com/codegym/controller/GreetingController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../greeing/target/greeting-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../greeing/target/greeting-1.0-SNAPSHOT/WEB-INF/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../greeing/target/greeting-1.0-SNAPSHOT/WEB-INF/classes/com/codegym/controller/GreetingController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../greeing/target/greeting-1.0-SNAPSHOT/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../greeing/target/greeting-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.3.21.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../greeing/target/greeting-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-5.3.21.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../greeing/target/greeting-1.0-SNAPSHOT/WEB-INF/lib/spring-context-5.3.21.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../greeing/target/greeting-1.0-SNAPSHOT/WEB-INF/lib/spring-core-5.3.21.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../greeing/target/greeting-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-5.3.21.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../greeing/target/greeting-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-5.3.21.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../greeing/target/greeting-1.0-SNAPSHOT/WEB-INF/lib/spring-web-5.3.21.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../greeing/target/greeting-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.3.21.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../greeing/target/greeting-1.0-SNAPSHOT/WEB-INF/views/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../greeing/target/greeting-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="2CBuRgSx1tpZlWtOEFjWGZ6G2SO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/email_validate_maven" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\CodeGym\Module4\module4\2_Spring_Controller\practice\src\main\webapp\WEB-INF" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\CodeGym\Module4\module4\2_Spring_Controller\practice\src\main\webapp\WEB-INF\views" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.64" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.64" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
+      <deployment>
+        <artifact name="email_validate_maven:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="8c874a30-d3b5-4369-a67d-8a173441f9e8" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50274" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="email_validate_maven:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b8fcccd2-c8b0-42b7-a4af-78b81d110a88" name="Changes" comment="" />
+      <created>1658288295763</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658288295763</updated>
+      <workItem from="1658288298437" duration="2525000" />
+      <workItem from="1658298683090" duration="1541000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
