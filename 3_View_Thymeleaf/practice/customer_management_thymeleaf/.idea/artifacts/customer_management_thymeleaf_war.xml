@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="customer_management_thymeleaf:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>false</exploded>
+        <module>customer_management_thymeleaf</module>
+        <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
+      </options>
+    </properties>
+    <root id="archive" name="customer_management_thymeleaf-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="customer_management_thymeleaf:war exploded" />
+    </root>
+  </artifact>
+</component>

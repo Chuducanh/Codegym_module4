@@ -1,27 +1,25 @@
 package com.codegym.controller;
 
-import java.io.*;
-import javax.servlet.http.*;
-import javax.servlet.annotation.*;
+import com.codegym.model.HealthForm;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.servlet.ModelAndView;
 
-@WebServlet(name = "helloServlet", value = "/hello-servlet")
-public class HelloServlet extends HttpServlet {
-    private String message;
-
-    public void init() {
-        message = "Hello World!";
+@Controller
+public class HelloServlet {
+    @GetMapping("/health")
+    public ModelAndView form()
+    {
+        return new ModelAndView("home", "form", new HealthForm());
     }
 
-    public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
-        response.setContentType("text/html");
-
-        // Hello
-        PrintWriter out = response.getWriter();
-        out.println("<html><body>");
-        out.println("<h1>" + message + "</h1>");
-        out.println("</body></html>");
-    }
-
-    public void destroy() {
+    @PostMapping("/user")
+    public ModelAndView user(@ModelAttribute("form") HealthForm healthForm)
+    {
+        ModelAndView modelAndView = new ModelAndView("user");
+        modelAndView.addObject("form", healthForm);
+        return modelAndView;
     }
 }
