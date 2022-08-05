@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table border="1">
+    <thead>
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Artist</th>
+        <th>Song type</th>
+        <th>Link</th>
+    </tr>
+    </thead>
+    <tbody>
+        <td th:text="${song.id}"></td>
+        <td th:text="${song.name}"></td>
+        <td th:text="${song.artist}"></td>
+        <td th:text="${song.type}"></td>
+        <td th:text="${song.link}"></td>
+    </tbody>
+</table>
+</body>
+</html>

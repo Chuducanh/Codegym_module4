@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Zing MP3</title>
+</head>
+<body>
+
+<table border="1">
+    <caption>Song List</caption>
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Artist</th>
+        <th>Song type</th>
+        <th>Link</th>
+        <th>Action</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="c : ${song}">
+        <td>
+            <a th:href="@{/mp3/{id}/view(id=${c.id})}" th:text="${c.name}"></a>
+        </td>
+        <td th:text="${c.artist}"></td>
+        <td th:text="${c.type}"></td>
+        <td>
+            <a th:href="${c.link}" th:text="${c.link}"></a>
+        </td>
+        <td>
+            <a th:href="@{/mp3/{id}/delete(id = ${c.id})}">Delete</a>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+<a th:href="@{/mp3/create}">Create a new song</a>
+</body>
+</html>
