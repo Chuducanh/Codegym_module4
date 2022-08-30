@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Product's detail</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+
+</head>
+<body>
+<p>
+    <a href="/product">Return back</a>
+</p>
+<div class="row">
+    <div class="col-sm-3">
+        <table style="text-align: center">
+            <tr>
+                <td><img th:src="@{'/img/'+ ${product.image}}" class='img-fluid' height="150px" width="100%"></td>
+            </tr>
+            <tr>
+                <td style="background-color:lavender" th:text="'Mã sản phẩm: ' + ${product.id}"></td>
+            </tr>
+            <tr>
+                <td>
+                    <a type="button" class="btn btn-primary" th:href="@{/add/__${product.id}__(action='list')}"><i
+                            class="bi bi-plus-square">Mua ngay</i></a>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="col-sm-6">
+        <table>
+            <tr>
+                <td th:text="${product.name}"></td>
+            </tr>
+            <tr>
+                <td th:text="'- ' + ${product.description}"></td>
+            </tr>
+            <tr>
+                <td style="background-color:lavender" th:text="'Giá: ' + ${product.price}"></td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+</body>
+</html>

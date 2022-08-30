@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Blog list</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript">
+
+        function getListBlog(data) {
+            return `<tr>`+
+                `<td>${data.creator}</td>`+
+                `<td>${data.name}</td>` +
+                `<td>${data.image}</td>` +
+                `<td>${data.status}</td>` +
+                `<td>${data.date}</td>` +
+                `</tr>`;
+        }
+
+        function GetBlogList()
+        {
+            $.ajax(
+                {
+                    type: GET,
+                    url: "/blog",
+                    success: function(data) {
+                        let content = "";
+
+                        for (let i = 0; i < data.length; i++)
+                        {
+                            content += getListBlog(data[i]);
+                        }
+                        document.getElementById('BlogList').innerHTML = content;
+                    }
+
+                }
+            );
+        }
+
+        $(document).ready(function () {
+            $('#search').on("keyup", function () {
+                let valuesearch = $(this).val();
+                $('.BlogList').empty();
+                $.ajax({
+                    url: `/blog/search?name=` + valuesearch,
+                    type: `GET`,
+                    dataType: "JSON",
+                    success: function (data) {
+                        let tr = '<tr>\n' +
+                            '        <th>Creator</th>\n' +
+                            '        <th>Name</th>\n' +
+                            '        <th>Image</th>\n' +
+                            '        <th>Status</th>\n' +
+                            '        <th>Date</th>\n' +
+                            '    </tr>';
+
+                        for (let j = 0; j < data.length; j++) {
+                            tr += getListBlog(data[j])
+
+                        }
+                        // $('.BlogList').html(tr)
+                        document.getElementById('BlogList').innerHTML = tr;
+                    },
+
+                    error: function () {
+                        alert('Không tìm thấy ' + valuesearch);
+                    }
+                })
+            })
+        })
+    </script>
+</head>
+<body>
+
+<div>
+    <input type="text" name="name" id="search" autocomplete="off">
+</div>
+<table id="BlogList">
+    <tr>
+        <th>Creator</th>
+        <th>Name</th>
+        <th>Image</th>
+        <th>Status</th>
+        <th>Date</th>
+    </tr>
+    <th:block th:each="blog: ${blog}">
+        <tr>
+            <td th:text="${blog.creator}"></td>
+            <td th:text="${blog.name}"></td>
+            <td th:text="${blog.image}"></td>
+            <td th:text="${blog.status}"></td>
+            <td th:text="${blog.date}"></td>
+        </tr>
+    </th:block>
+</table>
+</body>
+</html>

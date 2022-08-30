@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flower Garden</title>
+    <style>
+        #img:hover{
+            background-color: darkgray;
+        }
+    </style>
+</head>
+<body>
+<h3 style="color: crimson">Danh sách sản phẩm</h3>
+<p>
+    <a href="/cart">Your cart</a>
+</p>
+<table border="1">
+    <tr>
+        <th:block th:each="product:${products}">
+            <td id="img">
+                <a type="button" th:href="@{/view/__${product.id}__}">
+                    <img th:src="@{'/img/'+ ${product.image}}" height="200px" width="100%">
+                </a>
+
+            </td>
+        </th:block>
+    </tr>
+
+    <tr>
+        <th:block th:each="product:${products}">
+            <td style="background-color:lavender" th:text="${product.name}"></td>
+        </th:block>
+    </tr>
+
+    <tr>
+        <th:block th:each="product:${products}">
+            <td style="background-color:lavender" th:text="${product.price}"></td>
+        </th:block>
+    </tr>
+
+</table>
+</body>
+</html>
